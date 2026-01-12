@@ -1,0 +1,17 @@
+Summary: Interactive Rock, Paper, Scissors Game
+This script facilitates a player-vs-computer game based on classic win conditions. It translates numeric inputs into gameplay moves and uses randomized logic to determine the opponent's action.
+
+How the Code Works
+Displays Rules: The program starts by printing the win conditions: Paper beats Rock, Rock beats Scissors, and Scissors beat Paper.
+
+User Input: The player enters a number (1, 2, or 3) representing their choice of Rock, Paper, or Scissors.
+
+Data Mapping: The code converts the numeric input into a string (e.g., 1 becomes "Rock") for better readability.
+
+Computer Logic: The computer uses a random number generator to select its own move.
+
+Note: In a standard game, the computer picks once per round rather than looping until it matches the user.
+
+Result Display: The program prints both the user’s choice and the computer's choice to the console.
+
+Winner Determination: It compares the two choices using if-else logic to announce a win, loss, or draw.
